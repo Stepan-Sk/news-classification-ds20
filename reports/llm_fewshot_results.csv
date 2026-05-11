@@ -1,0 +1,7 @@
+experiment,model,input,classifier,sample_size,accuracy,macro_f1,weighted_f1,unknown_rate
+11_gemma4_e4b_fewshot,google/gemma-4-E4B-it,text,few-shot LLM (2/class),200,0.765,0.7804887759146952,0.7556539100353455,0.0
+12_qwen2.5_7b_fewshot,Qwen/Qwen2.5-7B-Instruct,text,few-shot LLM (2/class),200,0.76,0.7763145560956537,0.7371118916046473,0.0
+13_llama3.1_8b_fewshot,meta-llama/Meta-Llama-3.1-8B-Instruct,text,few-shot LLM (2/class),200,0.735,0.7301132978820606,0.7221812693017562,0.0
+13_gemma4_e4b_fewshot,google/gemma-4-E4B-it,text,few-shot LLM (2/class),1200,0.815,0.8252868317606995,0.812147975420194,0.0
+14_qwen2.5_7b_fewshot,Qwen/Qwen2.5-7B-Instruct,text,few-shot LLM (2/class),1200,0.8312447786131997,0.8250901901912502,0.8316536890675891,0.0025
+15_llama3.1_8b_fewshot,meta-llama/Meta-Llama-3.1-8B-Instruct,text,few-shot LLM (2/class),1200,0.8192468619246862,0.8274446703416453,0.8215514752818601,0.004166666666666667
